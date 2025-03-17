@@ -3,6 +3,9 @@ chmod +x setup.sh
 
 
 #!/bin/bash
+# Install ubuntu drivers
+sudo ubuntu-drivers install
+
 
 # Update and upgrade system
 echo "Updating system..."
